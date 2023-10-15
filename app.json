@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "react-native-maps",
-    "slug": "react-native-maps",
+    "name": "react-native-souryax-explore",
+    "slug": "react-native-souryax-explore",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -32,7 +32,7 @@
       [
         "expo-location",
         {
-          "locationAlwaysAndWhenInUsePermission": "Allow Explore Place to use your location."
+          "locationAlwaysAndWhenInUsePermission": "Allow Souryax Explore to use your location."
         }
       ]
     ]

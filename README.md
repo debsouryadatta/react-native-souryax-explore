@@ -20,3 +20,14 @@
 12. Creating the GoogleMapView component inside the Home page
 13. Issue in MapView component -> Solved by downgrading the react-native-maps version
 13. npx expo install expo-location -> For accessing my location, following the docs for using this package
+14. Now I got the problem of the error with the MapView, actually I gave the name of the root dir same as the package name(i.e. react-native-maps), then I changed it
+15. Copying the useEffect for location to the App.js from the docs
+16. Creating a context to share the location data with the other components, geting the context in the GoogleMapView component andf using it
+
+17. Adding google fonts in our app(Storing the downloaded fonts in our assets files), npx expo install expo-font, then using the useFont hook in the App.js to load the fonts in any component
+18. Adding Marker on maps -> in the GoogleMapView component
+
+
+### Other components in home screen
+19. Creating the CategoryList and the CategoryItem components
+20. npm i axios, 
