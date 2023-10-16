@@ -22,7 +22,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff",
         "package": "com.debsouryadatta.findplace",
-        "googleMapsApiKey": "AIzaSyAt5LSLxKNWF12qk1kfVsDEkmLXAnN1y_4"
+        "googleMapsApiKey": "${GOOGLE_API_KEY}"
       }
     },
     "web": {
