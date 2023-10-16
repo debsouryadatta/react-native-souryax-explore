@@ -9,16 +9,27 @@ const nearByPlace = async (lat, lng, type) =>
     BASE_URL +
       "/nearbysearch/json?" +
       "location=" +
-      lat + "," + lng +
+      lat +
+      "," +
+      lng +
       "&radius=1500&type=" +
       type +
       "&key=" +
       API_KEY
   );
 
-const searchByText = (searchText) =>
+const searchByText = (lat, lng, searchText) =>
   axios.get(
-    BASE_URL + "/textsearch/json?query=" + searchText + "&key=" + API_KEY
+    BASE_URL +
+      "/textsearch/json?" +
+      "location=" +
+      lat +
+      "," +
+      lng +
+      "&query=" +
+      searchText +
+      "&key=" +
+      API_KEY
   );
 
 export default {

@@ -41,3 +41,12 @@
 25. Creating the onDirectionClick func to open the directions in the PlaceDetails component
 26. Creating the PlaceDetailItem component
 27. Creating the SharePlace function in the Share.js, to use in the PlaceDetailItem component
+
+
+### Search Page
+28. Creating the Search Page, creating the GoogleMapViewFull component, creating the searchByText func in the GlobalsApi.js and using it in the Search.js
+29. Creating the Searchbar component, npx expo install expo-linear-gradient -> For the gradient Searchbar
+30. Creating the BusinessList and the BusinessItem components to show up the below cards, using the earlier made PlaceDetail component in the BusinessList component
+31. Using the setSearchText func in the Search.js and the Searchbar component to search the places
+
+### TODO: Fav Section and the Profile section  
