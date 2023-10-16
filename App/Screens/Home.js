@@ -17,7 +17,7 @@ export default function Home() {
     {
        GetNearBySearchPlace('restaurant'); 
     }
-  },[location])
+  },[])
   
   const GetNearBySearchPlace=(value)=>{
    
@@ -26,16 +26,17 @@ export default function Home() {
 
           console.log(location);
           setPlaceList(resp.data.results);
-          console.log(resp.data.results);
-
+          // console.log(resp.data.results);
     })
   } 
   return (
     <ScrollView style={{padding:20,backgroundColor:'#fff',flex:1}}>
         <Header/>
-        <GoogleMapView />
-        <CategoryList />
-       
+        <GoogleMapView placeList={placeList}/>
+        <CategoryList setSelectedCategory={(value)=>GetNearBySearchPlace(value)}/>
+
+       {placeList? <PlaceList placeList={placeList} /> : null}
+
     </ScrollView>
   )
 }

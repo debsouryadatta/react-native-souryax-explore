@@ -30,4 +30,14 @@
 
 ### Other components in home screen
 19. Creating the CategoryList and the CategoryItem components
-20. npm i axios, 
+20. npm i axios, creating a func for fetching the places api in the GlobalsApi.js and calling the func in the Home.js
+21. Creating the Placelist and the PlaceItem components
+22. Selecting the category using setSelectedCategory func in the Home.js and the CategoryList.js
+23. Putting the place markers, passing the placeList as a props to the GoogleMapView component then Creating the PlaceMarker component and mapping the placelist with the PlaceMarker component
+
+
+### Place Details Modal
+24. Creating new Stack navigation for the PlaceDetails component(Modal type presentation), also creating the onPress navigate function in the PlaceList component passing the place as params
+25. Creating the onDirectionClick func to open the directions in the PlaceDetails component
+26. Creating the PlaceDetailItem component
+27. Creating the SharePlace function in the Share.js, to use in the PlaceDetailItem component
