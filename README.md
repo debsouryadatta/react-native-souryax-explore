@@ -49,4 +49,9 @@
 30. Creating the BusinessList and the BusinessItem components to show up the below cards, using the earlier made PlaceDetail component in the BusinessList component
 31. Using the setSearchText func in the Search.js and the Searchbar component to search the places
 
+
+### Publishing
+32. npm install -g expo-cli, expo publish
+Link of published app: exp://u.expo.dev/update/f75c5466-be6e-4540-8ba2-3c2574d122a1
+
 ### TODO: Fav Section and the Profile section  
