@@ -52,6 +52,6 @@
 
 ### Publishing
 32. npm install -g expo-cli, expo publish
-Link of published app: exp://u.expo.dev/update/f75c5466-be6e-4540-8ba2-3c2574d122a1
+33. Link of published app: exp://u.expo.dev/update/f75c5466-be6e-4540-8ba2-3c2574d122a1
 
 ### TODO: Fav Section and the Profile section  
